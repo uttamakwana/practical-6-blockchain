@@ -1,0 +1,44 @@
+.register-container {
+  background-color: var(--color-5);
+  width: 360px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.register-container h1 {
+  color: var(--color-5);
+}
+
+.register-container .input-field {
+  margin-bottom: 20px;
+}
+
+.register-container .input-field input,
+.register-container .input-field select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--color-5);
+  border-radius: 5px;
+  outline: none;
+  font: inherit;
+}
+
+.register-container .input-field input:focus {
+  border-color: var(--color-1);
+}
+
+.register-container .register-btn {
+  background-color: var(--color-2);
+  color: var(--color-5);
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-container .register-btn:hover {
+  background-color: var(--color-1);
+}

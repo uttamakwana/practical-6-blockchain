@@ -1,0 +1,67 @@
+#root {
+  width: 100%;
+}
+
+.admin-page {
+  padding: 1rem;
+}
+
+.admin {
+  max-width: 1200px;
+  padding: 1rem;
+  width: 100%;
+  /* overflow: scroll; */
+  /* overflow: auto; */
+}
+
+.user-list {
+  list-style: none;
+  margin-top: 1rem;
+  max-width: 100%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.user {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.user-data {
+  padding: 10px;
+  background-color: var(--color-2);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--color-5);
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+.user h1 {
+  color: var(--color-1);
+  font-size: 24px;
+}
+
+.user p {
+  color: var(--color-1);
+}
+
+.admin-heading {
+  color: var(--color-5);
+}
+
+.admin-heading .highlight {
+  color: var(--color-3);
+}
+
+.admi .user p {
+  color: darkslategrey;
+}
